@@ -77,9 +77,9 @@ img.img_high{display:none;}
 .mv_copy_main > img{vertical-align: top;height:58px;max-width:inherit;}
 .mv_copy_sub{font-size: 24px;line-height:1.3;margin-top:20px;color:#fff;opacity:0.8}
 .btn_primary_row{text-align: right;margin-top:40px;}
-.btn_primary{display:inline-block;background:#0264ff;position:relative;min-width:356px;box-sizing:border-box;text-align:center;padding: 22px 60px 22px;border-radius:100px;overflow:hidden;line-height:0;}
+.btn_primary{display:inline-block;background:#0264ff;position:relative;min-width:356px;box-sizing:border-box;text-align:center;padding: 22px 60px 22px;border-radius:100px;overflow:hidden;line-height:0;-webkit-border-radius:100px;}
 .btn_primary:before,
-.btn_primary:after{display:block;content:'';width:100%;height:100%;transition-duration:500ms;background: linear-gradient(89deg, #0264ff 2%, #2ed9b7 100%);position:absolute;top:0;left:0;}
+.btn_primary:after{display:block;content:'';border-radius:100px;-webkit-border-radius:100px;width:100%;height:100%;transition-duration:500ms;background: linear-gradient(89deg, #0264ff 2%, #2ed9b7 100%);position:absolute;top:0;left:0;}
 .btn_primary:before{}
 .btn_primary:after{opacity:0;background: linear-gradient(89deg, #2ed9b7 2%, #0264ff 100%);}
 .btn_primary:hover:before{opacity:0;}
@@ -198,9 +198,9 @@ li.type2 .keyvalue_number{color:#0264ff;}
 .mc_botlink_list{display:flex;justify-content: center;align-items: center;}
 .mc_botlink_list > li{padding:20px 20px 0;}
 .mc_botlink_list > li:last-of-type{}
-.mc_botlink{display:inline-block;overflow:hidden;position:relative;text-align: center;box-sizing: border-box;min-width:320px;padding:16px 26px 16px;border-radius: 100px;}
+.mc_botlink{display:inline-block;overflow:hidden;position:relative;text-align: center;box-sizing: border-box;min-width:320px;padding:16px 26px 16px;border-radius: 100px;-webkit-border-radius:100px;}
 .mc_botlink:before,
-.mc_botlink:after{display:block;content:'';width:100%;height:100%;position:absolute;top:0;left:0;transition: .5s;}
+.mc_botlink:after{display:block;content:'';width:100%;height:100%;position:absolute;top:0;left:0;transition: .5s;border-radius:100px;-webkit-border-radius:100px;}
 .mc_botlink:before{background-image: linear-gradient(to right, #f445ba, #783bff);opacity:1;}
 .mc_botlink:after{background-image: linear-gradient(to right, #783bff, #f445ba);opacity:0;}
 .mc_botlink.type2{}
